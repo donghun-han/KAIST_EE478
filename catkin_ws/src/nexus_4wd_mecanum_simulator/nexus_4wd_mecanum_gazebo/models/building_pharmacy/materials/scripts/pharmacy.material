@@ -1,0 +1,14 @@
+material pharmacy
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture pharmacy.jpg
+      }
+    }
+  }
+}

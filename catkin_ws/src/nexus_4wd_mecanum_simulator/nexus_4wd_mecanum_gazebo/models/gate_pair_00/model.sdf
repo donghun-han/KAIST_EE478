@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="gate_pair_00">
+    <static>true</static>
+
+    <include>
+      <uri>model://gate_00</uri>
+      <name>left_gate</name>
+      <pose>0 1.8 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gate_01</uri>
+      <name>center_gate</name>
+      <pose>0 -0.0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gate_02</uri>
+      <name>right_gate</name>
+      <pose>0 -1.8 0 0 0 0</pose>
+    </include>
+
+  </model>
+</sdf>

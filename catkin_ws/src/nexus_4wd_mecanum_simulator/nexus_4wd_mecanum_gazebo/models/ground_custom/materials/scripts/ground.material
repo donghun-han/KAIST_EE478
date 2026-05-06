@@ -1,0 +1,16 @@
+material ground_custom/plate
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture plate.jpg
+        scale 0.04 0.04    // tile density: smaller = more tiles
+        scroll 0.0 0.0     // UV offset: shifts the texture across the plane
+      }
+    }
+  }
+}

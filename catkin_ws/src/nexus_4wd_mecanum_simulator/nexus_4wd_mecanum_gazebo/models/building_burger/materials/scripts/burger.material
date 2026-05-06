@@ -1,0 +1,14 @@
+material burger
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture burger.jpg
+      }
+    }
+  }
+}

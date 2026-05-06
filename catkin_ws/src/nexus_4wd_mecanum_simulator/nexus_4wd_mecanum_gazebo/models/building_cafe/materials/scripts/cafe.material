@@ -1,0 +1,14 @@
+material cafe
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture cafe.jpg
+      }
+    }
+  }
+}
